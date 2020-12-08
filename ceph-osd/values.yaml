@@ -241,7 +241,15 @@ conf:
     # - data:
     #     type: bluestore
     #     location: /dev/sdb   # Use a valid device here
-
+      - data:
+          type: bluestore
+          location: /dev/vdb
+      - data:
+          type: bluestore
+          location: /dev/vdc  
+      - data:
+          type: bluestore
+          location: /dev/vdd
     # Separate block devices may be used for block.db and/or block.wal
     # Specify the location and size in Gb. It is recommended that the
     # block_db size isn't smaller than 4% of block. For example, if the
