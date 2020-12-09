@@ -208,6 +208,7 @@ conf:
     global:
       # auth
       cephx: true
+      fsid: 795b6830-8baf-41e9-a15e-6dbc2c08b3c2
       cephx_require_signatures: false
       cephx_cluster_require_signatures: true
       cephx_service_require_signatures: false
