@@ -848,7 +848,7 @@ conf:
   ceph:
     override:
     append:
-    monitors: []
+    monitors: [192.168.101.166:6789]
     admin_keyring: null
     pools:
       backup:
